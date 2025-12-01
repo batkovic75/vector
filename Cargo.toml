@@ -134,19 +134,19 @@ members = [
 ]
 
 [workspace.dependencies]
-anyhow = "1.0.98"
-cfg-if = { version = "1.0.1", default-features = false }
-chrono = { version = "0.4.41", default-features = false, features = ["clock", "serde"] }
+anyhow = "1.0.100"
+cfg-if = { version = "1.0.4", default-features = false }
+chrono = { version = "0.4.42", default-features = false, features = ["clock", "serde"] }
 chrono-tz = { version = "0.10.4", default-features = false, features = ["serde"] }
 clap = { version = "4.5.42", default-features = false, features = ["derive", "error-context", "env", "help", "std", "string", "usage", "wrap_help"] }
 darling = { version = "0.20.11", default-features = false, features = ["suggestions"] }
 flate2 = { version = "1.1.2", default-features = false, features = ["zlib-rs"] }
 futures = { version = "0.3.31", default-features = false, features = ["compat", "io-compat", "std"], package = "futures" }
-glob = { version = "0.3.2", default-features = false }
+glob = { version = "0.3.3", default-features = false }
 hickory-proto = { version = "0.25.2", default-features = false, features = ["dnssec-ring"] }
 humantime = { version = "2.2.0", default-features = false }
 indexmap = { version = "2.10.0", default-features = false, features = ["serde", "std"] }
-indoc = { version = "2.0.6" }
+indoc = { version = "2.0.7" }
 inventory = { version = "0.3" }
 itertools = { version = "0.14.0", default-features = false, features = ["use_alloc"] }
 metrics = "0.24.2"
@@ -163,14 +163,14 @@ prost-reflect = { version = "0.14", features = ["serde"], default-features = fal
 prost-types = { version = "0.12", default-features = false }
 rand = { version = "0.9.2", default-features = false, features = ["small_rng", "thread_rng"] }
 rand_distr = { version = "0.5.1", default-features = false }
-semver = { version = "1.0.26", default-features = false, features = ["serde", "std"] }
+semver = { version = "1.0.27", default-features = false, features = ["serde", "std"] }
 serde = { version = "1.0.219", default-features = false, features = ["alloc", "derive", "rc"] }
-serde_json = { version = "1.0.142", default-features = false, features = ["raw_value", "std"] }
-snafu = { version = "0.8.6", default-features = false, features = ["futures", "std"] }
+serde_json = { version = "1.0.145", default-features = false, features = ["raw_value", "std"] }
+snafu = { version = "0.8.9", default-features = false, features = ["futures", "std"] }
 socket2 = { version = "0.5.10", default-features = false }
 tempfile = "3.20.0"
 tokio = { version = "1.45.1", default-features = false, features = ["full"] }
-toml = { version = "0.9.4", default-features = false, features = ["serde", "display", "parse"] }
+toml = { version = "0.9.8", default-features = false, features = ["serde", "display", "parse"] }
 tonic = { version = "0.11", default-features = false, features = ["transport", "codegen", "prost", "tls", "tls-roots", "gzip"] }
 tonic-build = { version = "0.11", default-features = false, features = ["transport", "prost"] }
 uuid = { version = "1.17.0", features = ["v4", "v7", "serde"] }
