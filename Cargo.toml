@@ -141,7 +141,7 @@ chrono-tz = { version = "0.10.4", default-features = false, features = ["serde"]
 clap = { version = "4.5.42", default-features = false, features = ["derive", "error-context", "env", "help", "std", "string", "usage", "wrap_help"] }
 darling = { version = "0.20.11", default-features = false, features = ["suggestions"] }
 flate2 = { version = "1.1.2", default-features = false, features = ["zlib-rs"] }
-futures = { version = "0.3.31", default-features = false, features = ["compat", "io-compat", "std"], package = "futures" }
+futures = { version = "0.3.32", default-features = false, features = ["compat", "io-compat", "std"], package = "futures" }
 glob = { version = "0.3.2", default-features = false }
 hickory-proto = { version = "0.25.2", default-features = false, features = ["dnssec-ring"] }
 humantime = { version = "2.2.0", default-features = false }
